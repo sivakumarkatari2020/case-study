@@ -1,0 +1,62 @@
+:root{
+    /* Font Sizes */
+    --ft-sm: 12px;
+    --ft-md: 16px;
+    --ft-lg: 24px;
+
+    /* Font weights */
+    --ft-light: 300;
+    --ft-regular: 500;
+    --ft-bold: 700;
+
+    /* Font styles */
+    --ft-roboto: 'Roboto';
+    --ft-lora: 'Lora';
+
+    /* colors */
+    --bg-primary: #FFFFFF;
+    --bg-primary-fade: #e8f3fe;
+    --bg-brand: #077DFA;
+    --bg-dark: #0D1B2A;
+    --bg-fade: #415A77;
+    --bg-ft-fade: #1B263B;
+    --bg-secondary-fade: #c9cbcc;
+
+    --box-shadow: rgba(0,0,0,0.05) 0px 0px 0px 1px;
+    --border: 1px solid rgba(94,93,93,.5);
+}
+*{
+    font-family: sans, 'Roboto';
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/*
+h1,h2,h3{
+    font-family: 'Lora';
+}
+*/
+
+a{
+    text-decoration: none;
+    color: var(--bg-fade);
+    cursor: pointer;
+}
+button{
+    cursor: pointer;
+}
+
+.layout{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+.inner-layout{
+    width: 100%;
+    height: 100vh;
+    min-height: 100vh;
+
+    background-color: var(--bg-primary);
+    color: var(--bg-dark);
+}
